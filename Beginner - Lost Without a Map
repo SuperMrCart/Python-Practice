@@ -1,0 +1,27 @@
+#Given an array of integers, return a new array with each value doubled.
+
+For example:
+
+[1, 2, 3] --> [2, 4, 6]
+
+For the beginner, try to use the map method - it comes in very handy quite a lot so is a good one to know.#
+
+def doublelist(a):
+    result = 1
+    for x in a:
+        result = result * x
+    return result
+    
+number = [1,2,3,4]
+print(doublelist(number))
+    using transvere policy to move through all the indexes and double them.
+    
+using numpy
+
+
+##solving using numpy
+import numpy
+
+number = [1,2,3,4]
+result = numpy.prod(number)
+print(result)
