@@ -1,0 +1,9 @@
+We need a function that can transform a number into a string.
+
+What ways of achieving this do you know?
+
+#using the str function built into python made to convert ints to strings.
+
+def number_to_string(num):
+    x = str(num) #wanted intiate a variable.
+    return x
