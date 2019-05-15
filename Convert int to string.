@@ -7,3 +7,9 @@ What ways of achieving this do you know?
 def number_to_string(num):
     x = str(num) #wanted intiate a variable.
     return x
+
+
+#me realizing i really didnt need to initate a varible to print out when i could just return it raw.
+
+def number_to_string(num):
+     return str(num)
